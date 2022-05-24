@@ -1,7 +1,7 @@
 #for local testing/or local docker container
 image=ngnix-main
 container=nginx-main
-port=3380
+port=80
 
 docker stop $container
 docker image rm $image
